@@ -35,22 +35,27 @@ function MeusProjetos() {
         <div className="cabecalho-projetos flex w-full items-center justify-between">
           <div>
             <h2 className="text-[13px] font-medium text-[#595959]">Projetos</h2>
-            <h1 className="mb-3 font-heading text-[25px] font-extrabold tracking-tight">
+            <h1 className="mb-3 font-heading text-[23px] font-extrabold tracking-tight md:text-[25px]">
               Meus Projetos
             </h1>
           </div>
 
-          <button className="ver-todos flex items-center gap-3 font-heading text-[12px] font-semibold text-[#1c140dcc]">
+          <button className="ver-todos hidden md:flex md:items-center md:gap-3 md:font-heading md:text-[12px] md:font-semibold md:text-[#1c140dcc]">
             Ver todos os Projetos
             <i className="fa-solid fa-arrow-right-long"></i>
           </button>
         </div>
 
-        <div className="Cards mt-10 flex w-full flex-wrap gap-7 justify-center">
+        <div className="Cards mt-5 md:mt-10 flex w-full flex-wrap gap-7 justify-center">
             {projetos.map((projeto) => (
                 <ProjetoCard key={projeto.titulo} {...projeto} />
             ))}
         </div>
+
+          <button className="ver-todos flex items-center gap-3 font-heading text-[13px] font-semibold text-[#1c140dcc] mt-5 md:hidden">
+            Ver todos os Projetos
+            <i className="fa-solid fa-arrow-right-long"></i>
+          </button>
       </div>
     </section>
   );
