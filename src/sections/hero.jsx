@@ -26,8 +26,7 @@ function Hero() {
           <p className="descricao w-[90%] wrap-break-word font-heading text-[13px] font-medium text-[#595959]
            md:text-[14px]
            lg:text-[14px]">
-            Transformo ideias em experiências digitais com foco em Engenharia de
-            Software, código limpo e boas práticas de desenvolvimento.
+            Desenvolvedor focado em criar aplicações web, resolver problemas e transformar ideias em projetos reais. Sempre buscando evoluir e aprimorar minhas habilidades através da prática.
           </p>
           <div className="botoes-hero flex w-full items-center text-center justify-between mt-3 md:justify-start md:gap-5 lg:justify-start lg:gap-5">
             <button className="botao-ver-projetos bg-[#CBE86B] p-2.25 px-5 text-[13px] font-semibold font-heading text-[#1c140dcc] transition-colors hover:bg-[#bdd95f] rounded-xl border-2 border-[#CBE86B] gap-3 flex items-center

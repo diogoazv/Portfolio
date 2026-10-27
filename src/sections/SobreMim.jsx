@@ -17,12 +17,9 @@ function SobreMim() {
           <p className="Descricao-quem-sou mb-5 w-[100%] wrap-break-word font-heading text-[13px] font-medium text-[#595959]
           md:w-[95%] md:text-[14px]
           lg:w-[110%]">
-            Sou um Engenheiro de Software em formação apaixonado por criar
-            soluções digitais inovadoras. Com experiência em desenvolvimento
-            web, busco transformar ideias em experiências impactantes para os
-            usuários. Meu foco está em escrever código limpo, seguir boas
-            práticas de desenvolvimento e colaborar efetivamente em equipes
-            multidisciplinares.
+            Minha jornada na tecnologia começou com o interesse por programação e cibersegurança. No último ano do ensino médio, um professor me ensinou os primeiros conceitos e me acompanhou nos meus projetos iniciais com HTML, CSS e JavaScript.
+            Com o início da faculdade de Engenharia de Software, passei a explorar novas tecnologias e desenvolver aplicações mais completas, ampliando meus conhecimentos no desenvolvimento web.
+            Hoje, sigo aprendendo na prática e buscando evoluir a cada novo projeto.
           </p>
 
             <button className="botao-saiba-mais bg-[#CBE86B] p-2.25 px-5 text-[13px] font-semibold font-heading text-[#1c140dcc] transition-colors hover:bg-[#bdd95f] rounded-xl border-2 border-[#CBE86B] gap-3 flex items-center

@@ -30,11 +30,11 @@ const projetos = [
 
 function MeusProjetos() {
   return (
-    <section id="projetos" className="w-full bg-[#f2e9e163] pb-10 pt-10">
+    <section id="projetos" className="w-full bg-[#f2e9e163] pb-5 pt-10 md:pb-10">
       <div className="mx-auto max-w-[1300px] px-6 py-5">
         <div className="cabecalho-projetos flex w-full items-center justify-between">
           <div>
-            <h2 className="text-[13px] font-medium text-[#595959]">Projetos</h2>
+            <h2 className="text-[13px] font-medium text-[#595959] md:text-[14px]">Projetos</h2>
             <h1 className="mb-3 font-heading text-[23px] font-extrabold tracking-tight md:text-[25px]">
               Meus Projetos
             </h1>
